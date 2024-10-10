@@ -1,0 +1,9 @@
+.about-page {
+    color: block;
+    .block1 {text-decoration: underline;}
+    .block2 {text-decoration: none;}
+    .block3 {
+        & > .pirma {font-size:30px;}
+        &.antra {font-size: 40px;}
+    }
+}
